@@ -19,11 +19,13 @@ Here are some ideas to get you started:
  
  ```python3
  from developers import Ahmad, Asjad
+ from about import first_name, last_name
  
  
- class About(Me):
+ class AhmadAsjad(Me):
      def __init__(self):
-         self.name = 'Ahmad Asjad'
+         self.first_name = first_name.Ahmad
+         self.last_name = last_name.Asjad
          
      def what_do_you_know(self):
         return self.get_my_knowledge()
