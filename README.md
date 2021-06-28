@@ -31,9 +31,7 @@ Here are some ideas to get you started:
         return self.get_my_knowledge()
      
      def get_my_knowledge(self):
-        return ["PHP", "Python", "JavaScript","Java", "Yii", "Yii2", "React", "dJango", "Spring", "Laravel", "DesignPattern", "MySql", "GIT", "Linux "Yii", "Yii2", "React", "dJango", ""]
-     
-     def is_in_progress(self):"]
+        return ["PHP", "Python", "JavaScript","Java", "Yii", "Yii2", "React", "dJango", "Spring", "Laravel", "DesignPattern", "MySql", "GIT", "Linux "Yii", "Yii2", "React", "dJango"]
      
      def is_in_progress(self):
         return True
