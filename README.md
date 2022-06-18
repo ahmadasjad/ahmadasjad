@@ -19,8 +19,7 @@ Here are some ideas to get you started:
 
 
 
- 
- ### Hi there 👋
+### Hi there 👋
  
  ```python3
  from developers import Ahmad, Asjad
