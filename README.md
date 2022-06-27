@@ -32,10 +32,13 @@ Here are some ideas to get you started:
          self.last_name = last_name.Asjad
          
      def what_do_you_know(self):
-        return self.get_my_knowledge()
+         return self.get_language_db() + self.get_tools_framework()
+        
+     def get_tools_framework(self):
+         return [ "GIT", "Linux", "Yii", "Yii2", "React", "dJango", "Spring", "Laravel", "DesignPattern"]
      
-     def get_my_knowledge(self):
-        return ["PHP", "Python", "JavaScript","Java", "Yii", "Yii2", "React", "dJango", "Spring", "Laravel", "DesignPattern", "MySql", "GIT", "Linux "Yii", "Yii2", "React", "dJango"]
+     def get_language_db(self):
+        return ["PHP", "Python", "JavaScript","Java", "MySql", ]
      
      def is_in_progress(self):
         return True
